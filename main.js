@@ -37,7 +37,7 @@ selectedActivity.addEventListener('change', () => {
 const input = document.querySelector('#logo');
 const preview = document.querySelector('.upload-preview');
 
-preview.style.backgroundImage = `url(../src/defaultImage.jpg)`;
+preview.style.backgroundImage = `url(./src/defaultImage.jpg)`;
 
 input.addEventListener('change', function() {
   const file = this.files[0];
